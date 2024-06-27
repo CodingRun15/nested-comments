@@ -1,13 +1,12 @@
-
 import './App.css';
-import CommentComponent from './Components/Comment';
-
-function App() {
-  return (
-    <div className="App">
-      <CommentComponent/>
-    </div>
-  );
-}
+import CommentComp from './Components/mainComponent';
+const App = () => {
+ return(
+  <>
+  <CommentComp/>
+  </>
+ )
+};
 
 export default App;
+

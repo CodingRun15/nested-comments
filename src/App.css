@@ -13,55 +13,52 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-
-.nested-comment{
-  margin-left: 3%;
-  font-size: medium;
-  text-align: center;
-  margin: 0 auto;
-  box-sizing: border-box;
-  width: 200px;
-  p{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-}
-.comment-buttons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  button{
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    background-color: cadetblue;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-}
-.input-main{
-  text-align: center;
-  width: 300px;
-  margin: 0 auto;
+#main-box{
+input{
   padding: 10px;
-  input{
+  border-radius: 5px;
+  border: 1px solid;
+  outline: none;
+  font-size: 15px;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: azure;
+  border-radius: 10px;
+}
+  button{
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid;
-    outline: none;
-    font-size: 15px;
-    margin: 5px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  button{
-    padding:10px;
-    border-radius: 5px;
     cursor: pointer;
-    color: white;
-    background-color: cadetblue;
+    color: rgb(20, 19, 19);
+    background: lightblue;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
   }
-  button:hover{
-    background-color: rgb(146, 111, 169);
+}
+
+#buttons-container{
+width: 120px;
+display: flex;
+justify-content: space-between;
+button{
+  padding:1px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(20, 19, 19);
+  background: lightblue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 2%;
+}
+}
+#reply-box{
+  input{
+    width: 200px;
+    padding: 10px;
+  }
+}
+.reply-text{
+  p{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 }
